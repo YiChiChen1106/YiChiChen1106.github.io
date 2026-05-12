@@ -6,7 +6,7 @@
     <title>Yichi Chen</title>
     <meta
       name="description"
-      content="Yichi Chen, incoming UC San Diego M.S. ECE student and researcher at Zhejiang University SPAIL Lab."
+      content="Yichi Chen, incoming UC San Diego M.S. ECE student working on NativeHook performance optimization at Zhejiang University SPAIL Lab."
     >
     <style>
       :root {
@@ -317,6 +317,26 @@
         margin-top: 24px;
       }
 
+      .contact-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 22px;
+        color: var(--muted);
+        font-size: 15px;
+      }
+
+      .contact-list a,
+      .contact-list span {
+        display: inline-flex;
+        align-items: center;
+        min-height: 36px;
+        padding: 0 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+
       footer {
         display: flex;
         flex-wrap: wrap;
@@ -403,12 +423,13 @@
             <p class="lead">
               Incoming M.S. ECE student at UC San Diego in Fall 2026, joining
               the MSECE program (EC77). I am currently working at Zhejiang
-              University SPAIL Lab, with interests in machine learning systems,
-              medical image segmentation, and embedded perception.
+              University SPAIL Lab on NativeHook performance optimization, with
+              interests in machine learning systems, medical image segmentation,
+              and embedded perception.
             </p>
             <div class="actions">
               <a class="button primary" href="https://github.com/YiChiChen1106">View GitHub</a>
-              <a class="button" href="mailto:17828118431@163.com">Contact</a>
+              <a class="button" href="mailto:281001038@qq.com">Contact</a>
             </div>
           </div>
           <div class="portrait-wrap">
@@ -423,7 +444,7 @@
           </div>
           <div class="fact">
             <strong>Now</strong>
-            <span>Zhejiang University SPAIL Lab</span>
+            <span>NativeHook performance optimization at Zhejiang University SPAIL Lab</span>
           </div>
           <div class="fact">
             <strong>Background</strong>
@@ -452,17 +473,34 @@
             <span class="tag alt">Medical Imaging</span>
             <span class="tag green">Embedded Systems</span>
           </div>
+          <div class="contact-list" aria-label="Contact information">
+            <a href="mailto:281001038@qq.com">281001038@qq.com</a>
+            <a href="tel:+8615381014779">+86 15381014779</a>
+            <span>WeChat: +86 15381014779</span>
+          </div>
         </section>
 
         <section id="experience">
           <div class="section-head">
             <h2>Experience</h2>
             <p class="section-copy">
-              Selected research, academic, and engineering experiences from my
-              resume.
+              Current lab work and selected research, academic, and engineering
+              experiences from my resume.
             </p>
           </div>
           <div class="timeline">
+            <article class="item">
+              <div class="date">Current</div>
+              <div>
+                <h3>NativeHook performance optimization at Zhejiang University SPAIL Lab</h3>
+                <p>
+                  Working on the performance optimization path for NativeHook,
+                  including Linux-side Plan B experiments, benchmarking,
+                  analysis scripts, result tracking, and design notes for
+                  evaluating runtime behavior and optimization trade-offs.
+                </p>
+              </div>
+            </article>
             <article class="item">
               <div class="date">Aug. 2025 - Present</div>
               <div>
@@ -537,9 +575,10 @@
             <article class="project">
               <h3>Nativehook Linux Plan B</h3>
               <p>
-                A framework-free project page and Linux-side source tree with
-                runnable Plan B code, benchmark scripts, result CSVs, analysis
-                helpers, figures, and design notes.
+                The public-facing workspace for my current NativeHook
+                performance optimization work at ZJU SPAIL Lab, including
+                Linux-side Plan B code, benchmark scripts, result CSVs,
+                analysis helpers, figures, and design notes.
               </p>
               <div class="tags">
                 <span class="tag">Shell</span>
